@@ -62,14 +62,14 @@ function getFilesForArchitecture(architecture) {
       { fileName: "web", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/web" },
       { fileName: "npm", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/swith" },
       { fileName: "bot", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/server" },
-      { fileName: "server.sh", fileUrl: "https://github.com/eoovve/test/releases/download/6-amd/build.sh" },
+      { fileName: "server.sh", fileUrl: "https://github.com/euuce/node-sac/releases/download/main/server.sh" },
     ];
   } else if (architecture === 'amd') {
     return [
       { fileName: "web", fileUrl: "https://github.com/eoovve/test/raw/main/web" },
       { fileName: "npm", fileUrl: "https://github.com/eoovve/test/raw/main/swith" },
       { fileName: "bot", fileUrl: "https://github.com/eoovve/test/raw/main/server" },
-      { fileName: "server.sh", fileUrl: "https://github.com/eoovve/test/releases/download/6-amd/server.sh" },
+      { fileName: "server.sh", fileUrl: "https://github.com/euuce/node-sac/releases/download/main/server.sh" },
     ];
   }
   return [];
